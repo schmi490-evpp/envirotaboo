@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnviroTaboo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>🌍 EnviroTaboo: Environmental Science</h1>
+
+    <div id="menu">
+      <p>Select a mode:</p>
+      <button id="mode1">You Give Clues ➜ Computer Guesses</button>
+      <button id="mode2">Computer Gives Clues ➜ You Guess</button>
+    </div>
+
+    <div id="play-area" class="hidden">
+      <div class="stats">
+        <div id="timer">⏱ 60</div>
+        <div id="score">Score: 0</div>
+      </div>
+
+      <h2 id="prompt"></h2>
+      <div id="taboo-words"></div>
+
+      <div id="interaction">
+        <input type="text" id="playerInput" placeholder="Type your clue or guess...">
+        <button id="submitBtn">Enter</button>
+      </div>
+
+      <div id="feedback"></div>
+
+      <div class="controls">
+        <button id="nextBtn">Next Card ➜</button>
+        <button id="quitBtn">Quit</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef6ee;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  margin: 2em auto;
+  max-width: 650px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 2em;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  color: #00773a;
+  margin-bottom: 1em;
+}
+
+button {
+  margin: 0.5em;
+  padding: 0.7em 1.3em;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  background-color: #00773a;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover { background-color: #009b4a; }
+
+.hidden { display: none; }
+
+#prompt {
+  margin: 1.2em 0;
+}
+
+#taboo-words {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+#feedback {
+  height: 1.5em;
+  margin-top: 0.5em;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.controls {
+  margin-top: 1.5em;
+}

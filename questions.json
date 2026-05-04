@@ -1,0 +1,42 @@
+[
+  {
+    "term": "Eutrophication",
+    "clues": [
+      "Excess nutrients lead to algal blooms and oxygen depletion.",
+      "Common in lakes or rivers near fertilizer runoff."
+    ],
+    "taboo": ["algae", "oxygen", "nutrients", "dead zone", "runoff"]
+  },
+  {
+    "term": "Thermohaline circulation",
+    "clues": [
+      "Deep ocean movement driven by temperature and salinity.",
+      "Links polar ice melt and nutrient cycling."
+    ],
+    "taboo": ["ocean", "density", "salt", "heat", "current"]
+  },
+  {
+    "term": "Greenhouse effect",
+    "clues": [
+      "Process causing Earth's surface to warm due to trapped radiation.",
+      "CO2, CH4, and water vapor play major roles."
+    ],
+    "taboo": ["climate", "warming", "atmosphere", "carbon dioxide", "infrared"]
+  },
+  {
+    "term": "Primary succession",
+    "clues": [
+      "Ecosystem development starting with bare rock or lava.",
+      "Lichens and mosses are early colonizers."
+    ],
+    "taboo": ["soil", "pioneer", "secondary", "plants", "forest"]
+  },
+  {
+    "term": "AMOC slowdown",
+    "clues": [
+      "Less sinking North Atlantic water weakens heat transfer.",
+      "Linked to Greenland meltwater input."
+    ],
+    "taboo": ["Atlantic", "circulation", "thermohaline", "current", "Europe"]
+  }
+]
